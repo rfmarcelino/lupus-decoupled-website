@@ -1,57 +1,26 @@
-# Docus Starter
+# Lupus Decoupled Website
 
-Starter template for [Docus](https://docus.dev).
+Repository for website and content of https://lupus-decoupled.org
+Please refer to the website and https://www.drupal.org/project/lupus_decoupled
+for further information.
 
-## Clone
+## Development 
 
-Clone the repository (using `nuxi`):
-
-```bash
-npx nuxi init -t themes/docus
-```
-
-## Setup
-
-Install dependencies:
+The website is developed using docus. 
 
 ```bash
-yarn install
+npm install
+npm run dev
 ```
-
-## Development
-
-```bash
-yarn dev
-```
-
-## Edge Side Rendering
-
-Can be deployed to Vercel Functions, Netlify Functions, AWS, and most Node-compatible environments.
-
-Look at all the available presets [here](https://v3.nuxtjs.org/guide/deploy/presets).
-
-```bash
-yarn build
-```
-
-## Static Generation
-
-Use the `generate` command to build your application.
-
-The HTML files will be generated in the .output/public directory and ready to be deployed to any static compatible hosting.
-
-```bash
-yarn generate
-```
-
-## Preview build
-
-You might want to preview the result of your build locally, to do so, run the following command:
-
-```bash
-yarn preview
-```
-
----
 
 For a detailed explanation of how things work, check out [Docus](https://docus.dev).
+
+## Hosting
+
+The repository is connected to Cloudflare Pages, which provides the hosting.
+It uses static generation.
+
+
+## Credits
+
+* Initial development, maintenance - drunomics GmbH <hello@drunomics.com>
