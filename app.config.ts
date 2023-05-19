@@ -1,17 +1,16 @@
 export default defineAppConfig({
   docus: {
-    title: 'Docus',
-    description: 'The best place to start your documentation.',
-    image: 'https://user-images.githubusercontent.com/904724/185365452-87b7ca7b-6030-4813-a2db-5e65c785bf88.png',
+    title: 'Lupus Decoupled Drupal',
+    description: 'The power of Drupal with a modern frontend.',
+    image: 'https://www.drupal.org/files/styles/grid-3-2x/public/project-images/LupusCustomElementsRender_0.png?itok=gDpQCR7C',
     socials: {
-      twitter: 'nuxtstudio',
-      github: 'nuxt-themes/docus'
+      github: 'drunomics/lupus-decoupled-project'
     },
     github: {
-      dir: '.starters/default/content',
+      dir: 'content',
       branch: 'main',
-      repo: 'docus',
-      owner: 'nuxt-themes',
+      repo: 'lupus-decoupled-website',
+      owner: 'drunomics',
       edit: true
     },
     aside: {
@@ -24,15 +23,23 @@ export default defineAppConfig({
       fluid: true
     },
     header: {
-      logo: true,
-      showLinkIcon: true,
+      logo: false,
+      title: 'Lupus Decoupled Drupal',
+      showLinkIcon: false,
       exclude: [],
-      fluid: true
+      fluid: false
     },
     footer: {
+      credits: {
+        text: 'A project supported by drunomics',
+      },
       iconLinks: [
         {
-          href: 'https://nuxt.com',
+            href: 'https://drupal.org/project/lupus_decoupled',
+            icon: 'simple-icons:drupal'
+        },
+        {
+          href: 'https://github.com/drunomics/nuxtjs-drupal-ce',
           icon: 'simple-icons:nuxtdotjs'
         }
       ]
