@@ -1,6 +1,3 @@
-title: 'Hosting'
-icon: simple-icons:drupal
+title: 'Advanced topics'
+icon: bi:diagram-3
 ---
-
-- Deployment options
-- Hosting options (Full stack templates, backend only, frontend only)
