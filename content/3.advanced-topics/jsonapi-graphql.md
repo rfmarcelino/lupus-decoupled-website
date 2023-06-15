@@ -1,3 +1,3 @@
 # JSON API & GraphQL
 
-explain relationship. references
+TODO: explain relationship. references
