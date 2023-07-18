@@ -11,6 +11,10 @@ export default defineNuxtConfig({
     '@nuxt/devtools'
   ],
 
+  colorMode: {
+    preference: 'dark'
+  },
+
   plausible: {
     domain: 'lupus-decoupled.org'
   }
