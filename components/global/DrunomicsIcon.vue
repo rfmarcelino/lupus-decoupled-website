@@ -1,6 +1,6 @@
 <template>
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 51.51 83.84">
-    <title>Drunomics icon</title>
+    <title>drunomics icon</title>
     <g id="logo-header">
       <g id="g3115">
         <path
