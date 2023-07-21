@@ -2,7 +2,7 @@
 
 Forms can be implemented using the [Webform module](https://www.drupal.org/project/webform), so that you can render webforms into custom elements.
 
-Note: Currently not implemented, but planned for the future.
+**Note:** Development is currently ongoing, view open issue at [#3336148](https://www.drupal.org/project/lupus_decoupled/issues/3336148).
 
 ## Use webforms
 
@@ -14,11 +14,11 @@ Create a new form:
 
 Here you can add fields to the form, and configure the form settings.
 
-## Render webforms
+## Render forms
 
-Webforms are rendered by Drupal-CE into custom elements, which can be used in your frontend.
+Forms are rendered by Drupal-CE into custom elements, which can be used in your frontend.
 
-Example of a webform rendered into a custom element:
+Example of a form rendered into a custom element:
 
 ```json
 "element": "webform",
